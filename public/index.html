@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--header design  -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+       
+      <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+      </nav>
+  </header>
+
+<!-- Home section design -->
+  <section class="home" id="home">
+      <div class="home-content">
+          <h3>Hi, Myself</h3>
+          <h1>Muskan Gupta</h1>
+          <h3>And I'm a <span class="multiple-text"></span></h3>
+          <p>I am a dedicated and versatile Full Stack Developer with a strong background in web development. I hold a Bachelor's degree in Technology from Dayalbagh Educational Institute. My skill set includes a wide array of programming languages and technologies such as HTML, CSS, JavaScript, Node.js, React.js, Express.js, jQuery, MongoDB, Java, Python, PHP, MySQL, and more.</p>
+          <div class="social-media">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <a href="image/Muskan_Resume.pdf" download class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+          <img src="image/portdp.jpg" alt="">
+      </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+      <div class="about-img">
+          <img src="image/aboutpic.jpg" alt="">
+      </div>
+      <div class="about-content">
+          <h2 class="heading">ABOUT <span>Me</span></h2>
+          <h3>Frontend Developer</h3>
+          <p>Hello! I'm Muskan Gupta, a passionate and versatile Full Stack Developer based in Agra. With a strong educational background and diverse skill set, I am dedicated to building innovative and efficient web solutions.My technical proficiency spans a wide range of programming languages and technologies, including:Web Development: HTML, CSS, JavaScript, Node.js, React.js, Express.js, jQuery, PHP. Backend and Database Management: MongoDB, MySQL, Git, GitHub.Programming Languages: Java, Python, C++.Outside of my professional pursuits, I have a keen interest in web development, designing, sketching, music, and reading books. These hobbies not only enrich my personal life but also inspire my professional work.</p>
+          <a href="#" class="btn">Read more</a>
+      </div>
+  </section>
+
+  <!-- services -->
+   <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+          <div class="services-box">
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>Web development is the process of creating and maintaining websites, encompassing a wide range of tasks from front-end design and user interface development to back-end server and database management. It involves using technologies such as HTML, CSS, JavaScript, and various frameworks like React.js and Node.js. Effective web development combines technical skills with creativity to build responsive, user-friendly, and functional websites. It plays a crucial role in the digital presence of businesses and individuals alike.</p>
+              <a href="#" class="btn">Read more</a>
+          </div>
+      </div>
+   </section>
+
+   <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+          <div class="portfolio-box">
+              <img src="./image/1..jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>The Ping Pong Game project is an interactive web-based game developed using HTML5, CSS3, and JavaScript. This project showcases my ability to create engaging and responsive web applications, focusing on game development and user interaction.</p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+              <img src="./image/2.jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>The Snake Game is a classic arcade game that I developed using HTML, CSS, and JavaScript. This project demonstrates my proficiency in front-end web development and my ability to create interactive and engaging user experiences.
+                  </p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+              <img src="./image/3.jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>Tic-Tac-Toe is a classic, simple, and widely enjoyed two-player game. The game is played on a 3x3 grid, where players take turns marking spaces with their respective symbols: one player uses "X" and the other uses "O". The objective is to be the first player to get three of their symbols in a row, either horizontally, vertically, or diagonally. If all nine spaces are filled and no player has achieved three in a row, the game ends in a draw.</p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+              <img src="./image/4.jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>A To-Do application is a productivity tool designed to help users organize and manage their tasks efficiently. It allows users to create and delete tasks.</p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+              <img src="./image/5.jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>The Resume Project is a practical demonstration of my web development skills, focusing on creating a clean, modern, and responsive personal resume website. This project highlights my ability to design and implement a professional online presence using current web technologies.</p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+              <img src="./image/6.jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>I developed a comprehensive e-commerce website utilizing a full-stack approach, which showcases my expertise in both front-end and back-end development. This project involved creating a dynamic and user-friendly platform for online shopping, integrating various technologies to ensure a seamless and efficient user experience.</p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+              <img src="./image/7.jpg" alt="">
+              <div class="portfolio-layer">
+                  <h4>Web Design</h4>
+                  <p>chat app is a cutting-edge chat application designed to make communication seamless and efficient and  you can send text messages</p>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="./image/8.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Welcome to Personal Bookshelf, your digital haven for organizing and exploring your literary world. Whether you're an avid reader, a book enthusiast, or simply looking to catalog your favorite reads</p>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./image/9.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Welcome to the ultimate dog enthusiast's destination! Our dog website is your go-to hub for discovering and learning about your favorite canine breeds.</p>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./image/10.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Welcome to our Weather Portal where ,enter your location to access detailed forecasts, including temperature trends, precipitation chances, wind speeds, and more.</p>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./image/11.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Welcome to our Calculator Hub, where numbers meet simplicity! Our website provides a straightforward tool for performing basic calculations effortlessly. </p>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form name="submit-to-google-sheet">
+          <div class="input-box">
+              <input type="text" name="Fullname" placeholder="Full Name">
+              <input type="email" name="email" placeholder="Email Address">
+          </div>
+          <div class="input-box">
+              <input type="number" name="number" placeholder="Mobile Number">
+              <input type="text" name="emailsubject" placeholder="Email Subject">
+          </div>
+          <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="submit" value="send Message" class="btn">
+      </form>
+      <span id="msg"></span>
+    </section>
+
+     <!-- footer -->
+      <footer class="footer">
+          <div class="footer-text">
+              <p>Copyright &copy; 2024 by @muskan | All Rights Reserved</p>
+          </div>
+          <div class="footer-iconTop">
+              <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+          </div>
+      </footer>
+
+      <!-- scroll reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- typed js -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="./main.js"></script>
+  <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyhlHQfLrHiUZ6_Wtgm7O0bfKziymvcSGnmDDi07HjoIRY4emWzK5I4eUcvw3L0a5Jnmg/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {msg.innerHTML="Message sent successfully"
+              setTimeout(function(){
+                  msg.innerHTML=""
+              },5000)
+              form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
